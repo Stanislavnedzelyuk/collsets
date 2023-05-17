@@ -10,7 +10,6 @@ public class CollsetsApplication {
 
 
 
-
 		SpringApplication.run(CollsetsApplication.class, args);
 	}
 

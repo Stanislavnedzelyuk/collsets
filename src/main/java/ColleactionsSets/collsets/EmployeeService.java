@@ -11,7 +11,6 @@ public class EmployeeService {
     private static final int MAX_EMPLOYEES = 100;
     private List<Employee> employees = new ArrayList<>();
 
-
     public Employee addEmployee(String firstName, String lastName) {
         if (employees.size() >= MAX_EMPLOYEES) {
             throw new EmployeeStorageIsFullException("Количество сотрудников максимальное");
